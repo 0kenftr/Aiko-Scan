@@ -1,5 +1,5 @@
 Aiko - Scan
-phát triển bởi : @kenftr
+phát triển bởi : @kenftr 
 tính năng:
 - quét hack từ log của player
 yêu cầu:
