@@ -250,7 +250,7 @@ def detect():
     if "Lambda" in getlog:
         clientdetect = Label(win, text='Cheat : True', font=("Helvetica", 12), bg='#6490FF')
         clientdetect.place(x=775, y=500, width=125,height=39)
-    ## loaer detect
+    ## loader detect
     if "fabric" in getlog:
         loaderdetect = Label(win, text='Loader : Fabric', font=("Helvetica", 16), bg='#6490FF')
         loaderdetect.place(x=770, y=450, width=160, height=39)
