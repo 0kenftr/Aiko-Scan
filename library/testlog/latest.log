@@ -1,0 +1,558 @@
+[19:51:26] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.16.5
+[19:51:26] [ForkJoinPool-1-worker-5/WARN]: Mod org_cloudburstmc_netty_netty-transport-raknet uses the version 1.0.0.CR3-SNAPSHOT which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'CR3'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:51:27] [main/INFO]: Loading 96 mods:
+	- cloth-config 13.0.138
+	   \-- cloth-basic-math 0.6.1
+	- entityculling 1.7.0
+	- fabric-api 0.97.2+1.20.4
+	   |-- fabric-api-base 0.4.37+78d798af4f
+	   |-- fabric-api-lookup-api-v1 1.6.50+82b1bb3e4f
+	   |-- fabric-biome-api-v1 13.0.17+78d798af4f
+	   |-- fabric-block-api-v1 1.0.17+3e2216cb4f
+	   |-- fabric-block-view-api-v2 1.0.5+78d798af4f
+	   |-- fabric-blockrenderlayer-v1 1.1.47+78d798af4f
+	   |-- fabric-client-tags-api-v1 1.1.8+78d798af4f
+	   |-- fabric-command-api-v1 1.2.42+f71b366f4f
+	   |-- fabric-command-api-v2 2.2.21+78d798af4f
+	   |-- fabric-commands-v0 0.2.59+df3654b34f
+	   |-- fabric-containers-v0 0.1.88+df3654b34f
+	   |-- fabric-content-registries-v0 5.0.16+78d798af4f
+	   |-- fabric-convention-tags-v1 1.5.11+78d798af4f
+	   |-- fabric-crash-report-info-v1 0.2.24+78d798af4f
+	   |-- fabric-data-attachment-api-v1 1.1.5+b90db5744f
+	   |-- fabric-data-generation-api-v1 13.2.6+5c0133444f
+	   |-- fabric-dimensions-v1 2.1.63+6605d1a84f
+	   |-- fabric-entity-events-v1 1.6.2+09fc25014f
+	   |-- fabric-events-interaction-v0 0.7.2+389931eb4f
+	   |-- fabric-events-lifecycle-v0 0.2.75+df3654b34f
+	   |-- fabric-game-rule-api-v1 1.0.47+78d798af4f
+	   |-- fabric-item-api-v1 2.3.0+bcdd12964f
+	   |-- fabric-item-group-api-v1 4.0.27+ee30b13a4f
+	   |-- fabric-key-binding-api-v1 1.0.42+78d798af4f
+	   |-- fabric-keybindings-v0 0.2.40+df3654b34f
+	   |-- fabric-lifecycle-events-v1 2.3.1+a67ffb5d4f
+	   |-- fabric-loot-api-v2 2.1.10+78d798af4f
+	   |-- fabric-message-api-v1 6.0.6+78d798af4f
+	   |-- fabric-mining-level-api-v1 2.1.66+78d798af4f
+	   |-- fabric-model-loading-api-v1 1.0.9+78d798af4f
+	   |-- fabric-models-v0 0.4.8+9386d8a74f
+	   |-- fabric-networking-api-v1 3.1.9+6abb6a4b4f
+	   |-- fabric-object-builder-api-v1 13.1.0+dba1195c4f
+	   |-- fabric-particles-v1 1.1.8+78d798af4f
+	   |-- fabric-recipe-api-v1 2.0.22+78d798af4f
+	   |-- fabric-registry-sync-v0 4.0.21+ee30b13a4f
+	   |-- fabric-renderer-api-v1 3.2.5+78d798af4f
+	   |-- fabric-renderer-indigo 1.5.6+d331d3144f
+	   |-- fabric-renderer-registries-v1 3.2.54+df3654b34f
+	   |-- fabric-rendering-data-attachment-v1 0.3.43+73761d2e4f
+	   |-- fabric-rendering-fluids-v1 3.1.2+e761c6694f
+	   |-- fabric-rendering-v0 1.1.57+df3654b34f
+	   |-- fabric-rendering-v1 3.2.1+6fd945a04f
+	   |-- fabric-resource-conditions-api-v1 2.3.15+78d798af4f
+	   |-- fabric-resource-loader-v0 0.11.21+ee30b13a4f
+	   |-- fabric-screen-api-v1 2.0.18+78d798af4f
+	   |-- fabric-screen-handler-api-v1 1.3.57+78d798af4f
+	   |-- fabric-sound-api-v1 1.0.18+78d798af4f
+	   |-- fabric-transfer-api-v1 4.0.12+90f2d7b14f
+	   \-- fabric-transitive-access-wideners-v1 5.0.15+78d798af4f
+	- fabricloader 0.16.5
+	   \-- mixinextras 0.4.1
+	- ferritecore 6.0.3
+	- immediatelyfast 1.2.21+1.20.4
+	   \-- net_lenni0451_reflect 1.3.4
+	- java 22
+	- lithium 0.12.1
+	- minecraft 1.20.4
+	- modmenu 9.2.0
+	- packet-logger 1.0
+	- placeholder-api 2.4.0-pre.1+1.20.4
+	- reeses-sodium-options 1.7.2+mc1.20.4-build.102
+	- sodium 0.5.8+mc1.20.4
+	- sodium-extra 0.5.4+mc1.20.4-build.116
+	   |-- caffeineconfig 1.3.0+1.17
+	   \-- crowdin-translate 1.4+1.19.3
+	- thunderhack 1.4
+	   \-- satin 1.16.0
+	- viafabricplus 3.1.1
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- com_vdurmont_semver4j 3.1.0
+	   |-- com_viaversion_viabackwards-common 4.10.1
+	   |-- com_viaversion_viaversion-common 4.10.1
+	   |-- de_florianmichael_classic4j 2.0.2
+	   |-- io_jsonwebtoken_jjwt-api 0.12.5
+	   |-- io_jsonwebtoken_jjwt-gson 0.12.5
+	   |-- io_jsonwebtoken_jjwt-impl 0.12.5
+	   |-- net_jodah_expiringmap 0.5.10
+	   |-- net_lenni0451_commons_httpclient 1.4.1
+	   |-- net_lenni0451_mcping 1.4.0
+	   |-- net_lenni0451_mcstructs-bedrock_forms 1.2.0
+	   |-- net_lenni0451_mcstructs-bedrock_text 1.2.0
+	   |-- net_raphimc_minecraftauth 4.0.0
+	   |-- net_raphimc_viaaprilfools 2.0.12
+	   |-- net_raphimc_viabedrock 0.0.7-SNAPSHOT
+	   |-- net_raphimc_vialegacy 2.2.22
+	   |-- net_raphimc_vialoader 2.2.13
+	   |-- org_cloudburstmc_netty_netty-transport-raknet 1.0.0.CR3-SNAPSHOT
+	   |-- org_iq80_leveldb_leveldb 0.12
+	   |-- org_iq80_leveldb_leveldb-api 0.12
+	   |-- org_lz4_lz4-pure-java 1.8.0
+	   \-- org_yaml_snakeyaml 2.2
+[19:51:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/kenft/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[19:51:35] [main/INFO]: Compatibility level set to JAVA_16
+[19:51:35] [main/INFO]: Compatibility level set to JAVA_17
+[19:51:36] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 1 override(s) found
+[19:51:36] [main/WARN]: [Satin] Sodium is present, custom block renders may not work
+[19:51:36] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 0 override(s) found
+[19:51:36] [main/INFO]: Loaded configuration file for Sodium Extra: 34 options available, 0 override(s) found
+[19:51:37] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[19:51:38] [main/INFO]: Searching for graphics cards...
+[19:51:38] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:51:39] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=NVIDIA GeForce GT 710, version=DriverVersion=30.0.14.7514]
+[19:51:39] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=INTEL, name=Intel(R) UHD Graphics 630, version=DriverVersion=31.0.101.1999]
+[19:51:39] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[19:51:39] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[19:51:50] [Datafixer Bootstrap/INFO]: 198 Datafixer optimizations took 283 milliseconds
+[19:51:52] [Render thread/INFO]: [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[19:51:53] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:51:53] [Render thread/INFO]: Setting user: kenftr
+[19:51:53] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[19:51:53] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[19:51:54] [ForkJoinPool.commonPool-worker-1/INFO]: Loading translations...
+[19:51:54] [ForkJoinPool.commonPool-worker-1/INFO]: Registering protocols...
+[19:51:55] [ForkJoinPool.commonPool-worker-1/INFO]: Started resource pack HTTP server on http://127.0.0.1:61538/
+[19:51:56] [ForkJoinPool.commonPool-worker-1/INFO]: ViaVersion detected lowest supported version by the proxy: c0.0.15a-1 (0)
+[19:51:56] [ForkJoinPool.commonPool-worker-1/INFO]: Highest supported version by the proxy: 1.20.5-1.20.6 (766)
+[19:51:56] [ForkJoinPool.commonPool-worker-1/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:51:56] [Render thread/INFO]: 
+ /$$$$$$$$ /$$                                 /$$                     /$$   /$$                     /$$      
+|__  $$__/| $$                                | $$                    | $$  | $$                    | $$      
+   | $$   | $$$$$$$  /$$   /$$ /$$$$$$$   /$$$$$$$  /$$$$$$   /$$$$$$ | $$  | $$  /$$$$$$   /$$$$$$$| $$   /$$
+   | $$   | $$__  $$| $$  | $$| $$__  $$ /$$__  $$ /$$__  $$ /$$__  $$| $$$$$$$$ |____  $$ /$$_____/| $$  /$$/
+   | $$   | $$  \ $$| $$  | $$| $$  \ $$| $$  | $$| $$$$$$$$| $$  \__/| $$__  $$  /$$$$$$$| $$      | $$$$$$/ 
+   | $$   | $$  | $$| $$  | $$| $$  | $$| $$  | $$| $$_____/| $$      | $$  | $$ /$$__  $$| $$      | $$_  $$ 
+   | $$   | $$  | $$|  $$$$$$/| $$  | $$|  $$$$$$$|  $$$$$$$| $$      | $$  | $$|  $$$$$$$|  $$$$$$$| $$ \  $$
+   |__/   |__/  |__/ \______/ |__/  |__/ \_______/ \_______/|__/      |__/  |__/ \_______/ \_______/|__/  \__/    
+   
+ 						By pan4ur, 06ED
+[19:51:56] [Render thread/INFO]: [ThunderHack] Init time: 1221 ms.
+[19:51:57] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[19:51:57] [Render thread/INFO]: Checking mod updates...
+[19:51:57] [Render thread/INFO]: PacketLogger | Sootysplash was here
+[19:51:57] [ModMenu/Update Checker/Fabric Loader/INFO]: Update available for 'fabricloader@0.16.5'
+[19:51:58] [Render thread/INFO]: Backend library: LWJGL version 3.3.2-snapshot
+[19:51:58] [Render thread/WARN]: Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
+[19:51:58] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
+[19:51:58] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce GT 710/PCIe/SSE2
+[19:51:58] [Render thread/INFO]: OpenGL Version: 3.2.0 NVIDIA 475.14
+[19:51:58] [Render thread/INFO]: Initializing ImmediatelyFast 1.2.21+1.20.4 on NVIDIA GeForce GT 710/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 3.2.0 NVIDIA 475.14
+[19:52:01] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, caffeineconfig, cloth-config, com_viaversion_viabackwards-common, com_viaversion_viaversion-common, entityculling, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, immediatelyfast, lithium, modmenu, net_raphimc_viaaprilfools, net_raphimc_viabedrock, net_raphimc_vialegacy, packet-logger, reeses-sodium-options, satin, sodium, sodium-extra, thunderhack, viafabricplus
+[19:52:01] [Worker-Main-1/INFO]: Found unifont_all_no_pua-15.1.04.hex, loading
+[19:52:01] [Worker-Main-4/WARN]: File thunderhack:sounds/alert.ogg does not exist, cannot add it to event thunderhack:alert
+[19:52:04] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[19:52:04] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[19:52:04] [Render thread/WARN]: Missing sound for event: minecraft:entity.generic.wind_burst
+[19:52:04] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[19:52:04] [Render thread/INFO]: Sound engine started
+[19:52:04] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[19:52:04] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[19:52:04] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:52:04] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:52:04] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[19:52:04] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:52:04] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[19:52:04] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:52:04] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:52:05] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[19:52:05] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:52:05] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:52:05] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:52:05] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[19:52:13] [Via Async Scheduler 0/INFO]: Finished mapping loading, shutting down loader executor!
+[19:52:39] [Render thread/INFO]: Connecting to play.boxpvpfly.fun, 25565
+[19:52:41] [Render thread/INFO]: Started 2 worker threads
+[19:52:42] [Render thread/INFO]: [System] [CHAT] \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 
+[19:52:42] [Render thread/INFO]: [System] [CHAT] [+] kenftr
+[19:52:42] [Render thread/INFO]: Loaded 7 advancements
+[19:52:42] [Render thread/INFO]: [System] [CHAT] 
+[19:52:42] [Render thread/INFO]: [System] [CHAT]     Welcome, kenftr to the server
+[19:52:42] [Render thread/INFO]: [System] [CHAT] 
+[19:52:42] [Render thread/INFO]: [System] [CHAT]   SERVER IP: VNBOXPVP.ASIA
+[19:52:42] [Render thread/INFO]: [System] [CHAT]   WEBSTORE: WWW.VNBOXPVP.ASIA
+[19:52:42] [Render thread/INFO]: [System] [CHAT]   DISCORD: https://discord.gg/F2r7usgF
+[19:52:42] [Render thread/INFO]: [System] [CHAT] 
+[19:52:42] [Render thread/INFO]: [System] [CHAT] Use the command /login <password>.
+[19:52:43] [Render thread/INFO]: Stopping worker threads
+[19:52:43] [Render thread/INFO]: Started 2 worker threads
+[19:52:56] [Render thread/INFO]: [System] [CHAT] Incorrect password. Please, try again.
+[19:52:57] [Render thread/INFO]: Stopping worker threads
+[19:53:16] [Render thread/INFO]: Connecting to play.boxpvpfly.fun, 25565
+[19:53:17] [Render thread/INFO]: Started 2 worker threads
+[19:53:17] [Render thread/INFO]: [System] [CHAT] \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 
+[19:53:17] [Render thread/WARN]: Ignoring player info update for unknown player cc653288-9ff1-3ef7-995b-32c62f5fcdc4 ([UPDATE_DISPLAY_NAME])
+[19:53:17] [Render thread/WARN]: Ignoring player info update for unknown player cc653288-9ff1-3ef7-995b-32c62f5fcdc4 ([UPDATE_DISPLAY_NAME])
+[19:53:17] [Render thread/WARN]: Ignoring player info update for unknown player 00000000-0000-0000-0009-01fd3caef582 ([UPDATE_DISPLAY_NAME])
+[19:53:17] [Render thread/INFO]: [System] [CHAT] [+] kenftr
+[19:53:17] [Render thread/INFO]: Loaded 7 advancements
+[19:53:17] [Render thread/INFO]: [System] [CHAT] 
+[19:53:17] [Render thread/INFO]: [System] [CHAT]     Welcome, kenftr to the server
+[19:53:17] [Render thread/INFO]: [System] [CHAT] 
+[19:53:17] [Render thread/INFO]: [System] [CHAT]   SERVER IP: VNBOXPVP.ASIA
+[19:53:17] [Render thread/INFO]: [System] [CHAT]   WEBSTORE: WWW.VNBOXPVP.ASIA
+[19:53:17] [Render thread/INFO]: [System] [CHAT]   DISCORD: https://discord.gg/F2r7usgF
+[19:53:17] [Render thread/INFO]: [System] [CHAT] 
+[19:53:17] [Render thread/INFO]: [System] [CHAT] Use the command /login <password>.
+[19:53:23] [Render thread/INFO]: [System] [CHAT] Incorrect password. Please, try again.
+[19:53:28] [Render thread/INFO]: [System] [CHAT] Incorrect password. Please, try again.
+[19:53:33] [Netty Client IO #7/WARN]: Unknown custom packet payload: nlogin:addon
+[19:53:33] [Render thread/INFO]: [System] [CHAT] You have successfully logged.
+[19:53:37] [Render thread/INFO]: [System] [CHAT]  
+[19:53:37] [Render thread/INFO]: [System] [CHAT] VNBOXPVP STORE
+[19:53:37] [Render thread/INFO]: [System] [CHAT]  
+[19:53:37] [Render thread/INFO]: [System] [CHAT] Donate to us and help support the
+[19:53:37] [Render thread/INFO]: [System] [CHAT] Server! Purchase a ranks,
+[19:53:37] [Render thread/INFO]: [System] [CHAT] keys, coins and more at our store!
+[19:53:37] [Render thread/INFO]: [System] [CHAT]  
+[19:53:37] [Render thread/INFO]: [System] [CHAT] ➥ vnboxpvp.asia
+[19:53:37] [Render thread/INFO]: [System] [CHAT]  
+[19:53:37] [Render thread/INFO]: [System] [CHAT] BMC ➠ Welcome NgocKhoi69582 to VNBOXPVP [#1516]
+[19:53:37] [Render thread/INFO]: [System] [CHAT] [+] NgocKhoi69582
+[19:53:37] [Render thread/WARN]: Ignoring player info update for unknown player 79e6d574-ec14-372c-a0a6-212e55678d59 ([UPDATE_DISPLAY_NAME])
+[19:53:41] [Render thread/INFO]: [System] [CHAT] Sending you to: BOXPVP
+[19:53:41] [Render thread/INFO]: Stopping worker threads
+[19:53:41] [Render thread/INFO]: Started 2 worker threads
+[19:53:41] [Render thread/INFO]: [System] [CHAT] kenftr joined the game
+[19:53:41] [Render thread/INFO]: [System] [CHAT] [PvPManager] Welcome! You are protected against PvP for 5 minutes
+[19:53:41] [Render thread/INFO]: Loaded 2 advancements
+[19:53:41] [Render thread/INFO]: [System] [CHAT] Welcome kenftr to the server!
+[19:53:41] [Render thread/INFO]: [System] [CHAT] kenftr has made the advancement [Getting an Upgrade]
+[19:53:41] [Render thread/INFO]: Loaded 10 advancements
+[19:53:41] [Render thread/INFO]: Stopping worker threads
+[19:53:41] [Render thread/INFO]: Started 2 worker threads
+[19:53:41] [Render thread/INFO]: [System] [CHAT] Thai4475 has made the advancement [Diamonds!]
+[19:53:42] [Render thread/INFO]: [Not Secure] [CHAT] Gà It_MinhQuanZ: cảm ơn đại ca
+[19:53:43] [Render thread/INFO]: [ThunderHack] disabled Aura
+[19:53:44] [Worker-Main-7/WARN]: Profile contained invalid signature for textures property (profile id: 7ca6561b-ff33-36bc-8d1f-914ce70bb116)
+[19:53:44] [Worker-Main-7/WARN]: Profile contained invalid signature for textures property (profile id: 61883367-0d55-3572-981e-9225f7eb4738)
+[19:53:44] [Worker-Main-5/WARN]: Profile contained invalid signature for textures property (profile id: d4ca2481-0d08-30c2-9acc-8eec628469b4)
+[19:53:44] [Worker-Main-7/WARN]: Profile contained invalid signature for textures property (profile id: 25ed6c51-fb7f-39de-ae12-257c62197667)
+[19:53:44] [Worker-Main-5/WARN]: Profile contained invalid signature for textures property (profile id: a3dfbf78-f44a-3b1d-81a3-42735b265ac9)
+[19:53:44] [Worker-Main-7/WARN]: Profile contained invalid signature for textures property (profile id: 4987d846-186d-39ab-acfe-f14578ceef11)
+[19:53:44] [Worker-Main-5/WARN]: Profile contained invalid signature for textures property (profile id: beb78a2b-e5f4-3ec2-9869-034456e8e1f3)
+[19:53:45] [Render thread/INFO]: [System] [CHAT] Combat Nhutxlam was slain by Combat keiizzz123
+[19:53:45] [Render thread/INFO]: [Not Secure] [CHAT] Gà VuaVit_meomeoz: memay an
+[19:53:46] [Render thread/INFO]: [Not Secure] [CHAT] Gà Vesteage: t phat glow sat ben 15 free nay
+[19:53:47] [Render thread/INFO]: [System] [CHAT] munci has made the advancement [Stone Age]
+[19:53:50] [Render thread/INFO]: [Not Secure] [CHAT] Gà Vesteage: 61 slot
+[19:53:57] [Render thread/INFO]: [System] [CHAT] Vinhminecra8774 left the game
+[19:53:58] [Render thread/INFO]: [System] [CHAT] KhanhhGia joined the game
+[19:53:58] [Render thread/INFO]: [System] [CHAT] Welcome KhanhhGia to the server!
+[19:53:58] [Render thread/INFO]: [System] [CHAT] KhanhhGia has made the advancement [Getting an Upgrade]
+[19:53:59] [Render thread/INFO]: [Not Secure] [CHAT] Gà kenftr: vesteage
+[19:53:59] [Render thread/INFO]: Loaded 12 advancements
+[19:53:59] [Render thread/INFO]: [Not Secure] [CHAT] Gà VuaVit_meomeoz: e ne
+[19:54:01] [Render thread/INFO]: [Not Secure] [CHAT] Gà kenftr: cho t do
+[19:54:02] [Render thread/INFO]: [Not Secure] [CHAT] Gà kenftr: cho t do
+[19:54:04] [Render thread/INFO]: [ThunderHack] disabled ThunderGui
+[19:54:04] [Render thread/INFO]: [ThunderHack] enabled ThunderGui
+[19:54:07] [Render thread/INFO]: [ThunderHack] disabled AkrienRadar
+[19:54:09] [Render thread/INFO]: [Not Secure] [CHAT] Gà It_MinhQuanZ: ê vịt
+[19:54:09] [Render thread/INFO]: [System] [CHAT] Minhkhieem12 joined the game
+[19:54:09] [Render thread/INFO]: [System] [CHAT] Welcome Minhkhieem12 to the server!
+[19:54:09] [Render thread/INFO]: [System] [CHAT] Minhkhieem12 has made the advancement [Getting an Upgrade]
+[19:54:09] [Render thread/INFO]: [System] [CHAT] hackcolo left the game
+[19:54:10] [Render thread/INFO]: [Not Secure] [CHAT] Gà Vesteage: cut nyc
+[19:54:13] [Render thread/INFO]: [ThunderHack] disabled Tracers
+[19:54:14] [Render thread/INFO]: [Not Secure] [CHAT] Gà VuaVit_meomeoz: dcm?
+[19:54:15] [Render thread/INFO]: [System] [CHAT] NgocKhoi69582 joined the game
+[19:54:15] [Render thread/WARN]: Ignoring player info update for unknown player 79e6d574-ec14-372c-a0a6-212e55678d59 ([UPDATE_DISPLAY_NAME])
+[19:54:15] [Render thread/INFO]: [System] [CHAT] Welcome NgocKhoi69582 to the server!
+[19:54:15] [Render thread/INFO]: [System] [CHAT] NgocKhoi69582 has made the advancement [Getting an Upgrade]
+[19:54:17] [Render thread/INFO]: [Not Secure] [CHAT] Gà It_MinhQuanZ: vịt ơi
+[19:54:17] [Render thread/INFO]: [System] [CHAT] Minhcpvp has made the advancement [Stone Age]
+[19:54:22] [Render thread/INFO]: [Not Secure] [CHAT] Gà kenftr: quay lai di em
+[19:54:26] [Render thread/INFO]: [Not Secure] [CHAT] Gà dcmmaymc: daica tha e
+[19:54:26] [Render thread/INFO]: [Not Secure] [CHAT] Gà VuaVit_meomeoz: hả
+[19:54:26] [Render thread/INFO]: [System] [CHAT] kenftr has made the advancement [Hidden in the Depths]
+[19:54:26] [Render thread/INFO]: Loaded 27 advancements
+[19:54:29] [Render thread/INFO]: [System] [CHAT] NgocKhoi69582 has made the advancement [Stone Age]
+[19:54:30] [Render thread/INFO]: [Not Secure] [CHAT] Gà VuaVit_meomeoz: ông đau quan
+[19:54:31] [Render thread/INFO]: [System] [CHAT] Combat chanhaka100 was slain by Combat AnMC
+[19:54:31] [Render thread/INFO]: [Not Secure] [CHAT] Gà kenftr: omg
+[19:54:33] [Render thread/INFO]: [Not Secure] [CHAT] Gà It_MinhQuanZ: cho cái quần với cái giày
+[19:54:33] [Render thread/INFO]: [Not Secure] [CHAT] Gà kenftr: cao nhan nao v
+[19:54:39] [Render thread/INFO]: [Not Secure] [CHAT] Gà VuaVit_meomeoz: spawn
+[19:54:45] [Render thread/INFO]: [System] [CHAT] [ClearLag] Warning Ground items will be removed in 60 seconds!
+[19:54:45] [Render thread/INFO]: [Not Secure] [CHAT] Gà kenftr: [i]
+[19:54:51] [Render thread/INFO]: [Not Secure] [CHAT] Gà VuaVit_meomeoz: m dau quan
+[19:54:51] [Render thread/INFO]: [System] [CHAT] Trhuy joined the game
+[19:54:51] [Render thread/WARN]: Ignoring player info update for unknown player 43f87441-c678-35e9-a42a-8cc8bf2bb360 ([UPDATE_DISPLAY_NAME])
+[19:54:58] [Render thread/INFO]: [Not Secure] [CHAT] Gà dcmmaymc: :))
+[19:54:59] [Render thread/INFO]: [Not Secure] [CHAT] Gà It_MinhQuanZ: sau
+[19:54:59] [Render thread/INFO]: [System] [CHAT] boxpvp has made the advancement [Isn't It Iron Pick]
+[19:55:00] [Render thread/INFO]: [System] [CHAT] Trum_PvP2276 joined the game
+[19:55:00] [Render thread/INFO]: [System] [CHAT] Welcome Trum_PvP2276 to the server!
+[19:55:00] [Render thread/INFO]: [System] [CHAT] Trum_PvP2276 has made the advancement [Getting an Upgrade]
+[19:55:01] [Render thread/INFO]: [System] [CHAT] thewan65 joined the game
+[19:55:01] [Render thread/INFO]: [System] [CHAT] Welcome thewan65 to the server!
+[19:55:01] [Render thread/INFO]: [System] [CHAT] thewan65 has made the advancement [Getting an Upgrade]
+[19:55:07] [Render thread/INFO]: [Not Secure] [CHAT] Gà manhbd: bâyh đập đèn hiệu kiểu j
+[19:55:10] [Render thread/INFO]: [Not Secure] [CHAT] Gà VuaVit_meomeoz: theo
+[19:55:14] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't place that block here.
+[19:55:14] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't place that block here.
+[19:55:15] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't place that block here.
+[19:55:17] [Render thread/INFO]: [System] [CHAT] Combat chanhaka100 was slain by Combat AnMC
+[19:55:17] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't place that block here.
+[19:55:18] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't place that block here.
+[19:55:19] [Render thread/INFO]: [System] [CHAT] Combat AnMC has made the advancement [Diamonds!]
+[19:55:19] [Render thread/INFO]: [System] [CHAT] bulontaodi It_MinhQuanZ has made the advancement [Cover Me with Diamonds]
+[19:55:22] [Render thread/INFO]: [System] [CHAT] Thai4475 left the game
+[19:55:22] [Render thread/INFO]: [System] [CHAT] Combat Nhutxlam was slain by Combat AnMC
+[19:55:25] [Render thread/INFO]: [System] [CHAT] [ClearLag] Warning Ground items will be removed in 20 seconds!
+[19:55:30] [Render thread/INFO]: [System] [CHAT] Combat chanhaka100 was slain by Combat VuaVit_meomeoz
+[19:55:36] [Render thread/INFO]: [Not Secure] [CHAT] Gà VuaVit_meomeoz: vl
+[19:55:37] [Render thread/INFO]: [System] [CHAT] Minhkhieem12 has made the advancement [Diamonds!]
+[19:55:40] [Render thread/INFO]: [System] [CHAT] KhanhhGia has made the advancement [Diamonds!]
+[19:55:43] [Render thread/INFO]: [Not Secure] [CHAT] Gà VuaVit_meomeoz: đánh gớm v???
+[19:55:45] [Render thread/INFO]: [System] [CHAT] [ClearLag] Removed 109 Entities!
+[19:55:46] [Render thread/INFO]: [System] [CHAT] thewan65 left the game
+[19:55:46] [Render thread/INFO]: [System] [CHAT] thewan65 was kicked by Console for 'Lợi thế không công bằng.'.
+[19:55:50] [Render thread/INFO]: [System] [CHAT] Combat keiizzz123 was slain by Combat dcmmaymc
+[19:55:50] [Render thread/INFO]: [Not Secure] [CHAT] Gà VuaVit_meomeoz: ra beacon coi ns đánh kìa
+[19:55:55] [Render thread/INFO]: [System] [CHAT] ThoongMC20 has reached the goal [Sky's the Limit]
+[19:55:56] [Render thread/INFO]: [System] [CHAT] Combat chanhaka100 was slain by Combat Minhnooob
+[19:55:57] [Render thread/INFO]: [Not Secure] [CHAT] [VIP++]AnMC: auto clicker
+[19:55:58] [Render thread/INFO]: [System] [CHAT] thewan65 joined the game
+[19:55:59] [Render thread/INFO]: [System] [CHAT] NgocKhoi69582 has made the advancement [Sticky Situation]
+[19:56:02] [Render thread/INFO]: [System] [CHAT] Combat Minhcpvp was slain by Combat VuaVit_meomeoz
+[19:56:03] [Render thread/INFO]: [System] [CHAT] Combat manhbd was slain by Combat Minhnooob
+[19:56:06] [Render thread/INFO]: [System] [CHAT] MaVuong has made the advancement [Stone Age]
+[19:56:06] [Render thread/INFO]: [System] [CHAT] Combat Nhutxlam was slain by Combat It_MinhQuanZ
+[19:56:09] [Render thread/INFO]: [System] [CHAT] keiizzz123 has made the advancement [Stone Age]
+[19:56:11] [Render thread/INFO]: [Not Secure] [CHAT] Gà Trum_PvP2276: bị lỗi j roi
+[19:56:11] [Render thread/INFO]: [System] [CHAT] boxpvp has made the advancement [Diamonds!]
+[19:56:16] [Render thread/INFO]: [System] [CHAT] Combat keiizzz123 was slain by Combat dcmmaymc
+[19:56:16] [Render thread/INFO]: [System] [CHAT] kenftr has reached the goal [Sky's the Limit]
+[19:56:16] [Render thread/INFO]: Loaded 32 advancements
+[19:56:16] [Render thread/INFO]: Loaded 35 advancements
+[19:56:17] [Render thread/INFO]: [System] [CHAT] kenftr has made the advancement [Cover Me with Diamonds]
+[19:56:17] [Render thread/INFO]: Loaded 37 advancements
+[19:56:18] [Render thread/INFO]: [System] [CHAT] kenftr has made the advancement [Into Fire]
+[19:56:18] [Render thread/INFO]: Loaded 43 advancements
+[19:56:21] [Render thread/INFO]: [Not Secure] [CHAT] Gà VuaVit_meomeoz: thg dcmmaymc hoa binh k???
+[19:56:23] [Render thread/INFO]: [Not Secure] [CHAT] Gà It_MinhQuanZ: span
+[19:56:26] [Render thread/INFO]: Loaded 60 advancements
+[19:56:30] [Render thread/INFO]: [Not Secure] [CHAT] Gà dcmmaymc: ạn e :((
+[19:56:31] [Render thread/INFO]: [Not Secure] [CHAT] Gà kenftr: co kiem k
+[19:56:34] [Render thread/INFO]: [System] [CHAT] ThoongMC20 has made the advancement [Diamonds!]
+[19:56:38] [Render thread/INFO]: [Not Secure] [CHAT] Gà Vesteage: kiem la cai tao be
+[19:56:38] [Render thread/INFO]: [Not Secure] [CHAT] [VIP++]AnMC: th tha do
+[19:56:40] [Render thread/INFO]: [Not Secure] [CHAT] Gà dcmmaymc: danh :))
+[19:56:42] [Render thread/INFO]: [Not Secure] [CHAT] Gà It_MinhQuanZ: cảm ơn
+[19:56:42] [Render thread/INFO]: [System] [CHAT] Combat Nhutxlam was slain by Combat Maianhhaosocola
+[19:56:45] [Render thread/INFO]: [System] [CHAT] NgocKhoi69582 left the game
+[19:56:45] [Render thread/INFO]: [Not Secure] [CHAT] Gà dcmmaymc: hoa binh
+[19:56:47] [Render thread/INFO]: [ThunderHack] enabled Aura
+[19:56:48] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:48] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:49] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:50] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:50] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:51] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:51] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:52] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:53] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:53] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:54] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:54] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:55] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:56] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:56] [Render thread/INFO]: [System] [CHAT] KhanhhGia has reached the goal [Sky's the Limit]
+[19:56:56] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:57] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:57] [Render thread/INFO]: [Not Secure] [CHAT] Gà taolawibu: :))
+[19:56:57] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:58] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:59] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:56:59] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:57:00] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:57:01] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:57:02] [Render thread/INFO]: [System] [CHAT] spitebiuz joined the game
+[19:57:02] [Render thread/WARN]: Ignoring player info update for unknown player 6bf4ae1a-8a7b-36bb-be55-d9d14b314672 ([UPDATE_DISPLAY_NAME])
+[19:57:02] [Render thread/INFO]: [System] [CHAT] Welcome spitebiuz to the server!
+[19:57:02] [Render thread/INFO]: [System] [CHAT] spitebiuz has made the advancement [Getting an Upgrade]
+[19:57:02] [Render thread/INFO]: [ThunderHack] disabled Aura
+[19:57:15] [Render thread/INFO]: [System] [CHAT] Minhkhieem12 has reached the goal [Sky's the Limit]
+[19:57:15] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[19:57:19] [Render thread/INFO]: [System] [CHAT] Combat Nhutxlam was slain by Combat VuaVit_meomeoz
+[19:57:20] [Render thread/INFO]: [System] [CHAT] thewan65 left the game
+[19:57:20] [Render thread/INFO]: [System] [CHAT] thewan65 was kicked by Console for 'speed.'.
+[19:57:25] [Render thread/INFO]: [System] [CHAT] spitebiuz left the game
+[19:57:25] [Render thread/INFO]: [System] [CHAT] Maianhhaosocola has made the advancement [Stone Age]
+[19:57:28] [Render thread/INFO]: [System] [CHAT] Minhkhieem12 has made the advancement [Sticky Situation]
+[19:57:39] [Render thread/INFO]: [ThunderHack] enabled Aura
+[19:57:40] [Render thread/INFO]: [Not Secure] [CHAT] Gà VuaVit_meomeoz: beacon di ae
+[19:57:41] [Render thread/INFO]: [System] [CHAT] Rikubunthui has made the advancement [Diamonds!]
+[19:57:42] [Render thread/INFO]: [System] [CHAT] [PvPManager] You have PvP protection! If you really want to do PvP, remove it with /newbie disable
+[19:57:42] [Render thread/INFO]: [System] [CHAT] [PvPManager] You have PvP protection! If you really want to do PvP, remove it with /newbie disable
+[19:57:43] [Render thread/INFO]: [System] [CHAT] [PvPManager] You have PvP protection! If you really want to do PvP, remove it with /newbie disable
+[19:57:43] [Render thread/INFO]: [System] [CHAT] [PvPManager] You have PvP protection! If you really want to do PvP, remove it with /newbie disable
+[19:57:44] [Render thread/INFO]: [System] [CHAT] [PvPManager] You have PvP protection! If you really want to do PvP, remove it with /newbie disable
+[19:57:45] [Render thread/INFO]: [System] [CHAT] [PvPManager] You have PvP protection! If you really want to do PvP, remove it with /newbie disable
+[19:57:49] [Render thread/INFO]: [System] [CHAT] [PvPManager] You have PvP protection! If you really want to do PvP, remove it with /newbie disable
+[19:57:50] [Render thread/INFO]: [System] [CHAT] [PvPManager] You have PvP protection! If you really want to do PvP, remove it with /newbie disable
+[19:57:50] [Render thread/INFO]: [System] [CHAT] [PvPManager] You have PvP protection! If you really want to do PvP, remove it with /newbie disable
+[19:57:51] [Render thread/INFO]: [System] [CHAT] [PvPManager] You have PvP protection! If you really want to do PvP, remove it with /newbie disable
+[19:57:51] [Render thread/INFO]: [System] [CHAT] [PvPManager] You have PvP protection! If you really want to do PvP, remove it with /newbie disable
+[19:57:52] [Render thread/INFO]: [System] [CHAT] [PvPManager] You have PvP protection! If you really want to do PvP, remove it with /newbie disable
+[19:57:52] [Render thread/INFO]: [System] [CHAT] [PvPManager] You removed your PvP protection! Be careful
+[19:57:53] [Render thread/INFO]: [System] [CHAT] [PvPManager] You tagged Nhutxlam! Do not log out or you will be punished!
+[19:58:02] [Render thread/INFO]: [Not Secure] [CHAT] Gà dcmmaymc: Minhcpvp nhớ chạy nha a
+[19:58:11] [Render thread/INFO]: [Not Secure] [CHAT] Gà kenftr: tarik cuu be
+[19:58:14] [Render thread/INFO]: [System] [CHAT] Combat Nhutxlam was slain by Combat kenftr using [THỤC CẶC VÀO LỒN EM]
+[19:58:14] [Render thread/INFO]: Loaded 88 advancements
+[19:58:14] [Render thread/INFO]: [Not Secure] [CHAT] Gà VuaVit_meomeoz: minhcpvp bn m à
+[19:58:18] [Render thread/INFO]: [ThunderHack] disabled Aura
+[19:58:19] [Render thread/INFO]: [System] [CHAT] Combat Minhcpvp was slain by Combat VuaVit_meomeoz
+[19:58:21] [Render thread/INFO]: [System] [CHAT] Trum_PvP2276 has reached the goal [Sky's the Limit]
+[19:58:27] [Render thread/INFO]: [System] [CHAT] TTM091012 joined the game
+[19:58:27] [Render thread/WARN]: Ignoring player info update for unknown player 37a73dfe-3075-3417-8c9f-fbf900a1f92f ([UPDATE_DISPLAY_NAME])
+[19:58:27] [Render thread/INFO]: [System] [CHAT] Welcome TTM091012 to the server!
+[19:58:27] [Render thread/INFO]: [System] [CHAT] TTM091012 has made the advancement [Getting an Upgrade]
+[19:58:29] [Render thread/INFO]: Stopping worker threads
+[19:58:30] [Render thread/INFO]: Connecting to henrymc.click, 25565
+[19:58:32] [Render thread/INFO]: Connecting to play.boxpvpfly.fun, 25565
+[19:58:33] [Render thread/INFO]: Started 2 worker threads
+[19:58:33] [Render thread/INFO]: [System] [CHAT] \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 
+[19:58:34] [Render thread/WARN]: Ignoring player info update for unknown player cc653288-9ff1-3ef7-995b-32c62f5fcdc4 ([UPDATE_DISPLAY_NAME])
+[19:58:34] [Render thread/WARN]: Ignoring player info update for unknown player 6a02f88e-2450-340b-8d70-cf5702be3b09 ([UPDATE_DISPLAY_NAME])
+[19:58:34] [Render thread/WARN]: Ignoring player info update for unknown player 00000000-0000-0000-0009-01f11bbf58af ([UPDATE_DISPLAY_NAME])
+[19:58:34] [Render thread/WARN]: Ignoring player info update for unknown player cc653288-9ff1-3ef7-995b-32c62f5fcdc4 ([UPDATE_DISPLAY_NAME])
+[19:58:34] [Render thread/WARN]: Ignoring player info update for unknown player 79e6d574-ec14-372c-a0a6-212e55678d59 ([UPDATE_DISPLAY_NAME])
+[19:58:34] [Render thread/INFO]: [System] [CHAT] [+] kenftr
+[19:58:34] [Render thread/INFO]: [System] [CHAT] Use the command /login <password>.
+[19:58:34] [Render thread/INFO]: Loaded 7 advancements
+[19:58:34] [Render thread/INFO]: [System] [CHAT] 
+[19:58:34] [Render thread/INFO]: [System] [CHAT]     Welcome, kenftr to the server
+[19:58:34] [Render thread/INFO]: [System] [CHAT] 
+[19:58:34] [Render thread/INFO]: [System] [CHAT]   SERVER IP: VNBOXPVP.ASIA
+[19:58:34] [Render thread/INFO]: [System] [CHAT]   WEBSTORE: WWW.VNBOXPVP.ASIA
+[19:58:34] [Render thread/INFO]: [System] [CHAT]   DISCORD: https://discord.gg/F2r7usgF
+[19:58:34] [Render thread/INFO]: [System] [CHAT] 
+[19:58:34] [Render thread/INFO]: [System] [CHAT] [+] ssnna
+[19:58:34] [Render thread/INFO]: Stopping worker threads
+[19:58:34] [Render thread/INFO]: Started 2 worker threads
+[19:58:37] [Render thread/INFO]: [System] [CHAT]  
+[19:58:37] [Render thread/INFO]: [System] [CHAT] VNBOXPVP RULES
+[19:58:37] [Render thread/INFO]: [System] [CHAT]  
+[19:58:37] [Render thread/INFO]: [System] [CHAT] When you join our discord please
+[19:58:37] [Render thread/INFO]: [System] [CHAT] make sure you acknowledge and take
+[19:58:37] [Render thread/INFO]: [System] [CHAT] note of all our rules. Thank you!
+[19:58:37] [Render thread/INFO]: [System] [CHAT]  
+[19:58:37] [Render thread/INFO]: [System] [CHAT] ➥ https://discord.gg/F2r7usgF
+[19:58:37] [Render thread/INFO]: [System] [CHAT]  
+[19:58:39] [Render thread/INFO]: [System] [CHAT] You have successfully logged.
+[19:58:39] [Netty Client IO #12/WARN]: Unknown custom packet payload: nlogin:addon
+[19:58:39] [Worker-Main-2/WARN]: Profile contained invalid signature for textures property (profile id: 6a02f88e-2450-340b-8d70-cf5702be3b09)
+[19:58:39] [Worker-Main-6/WARN]: Profile contained invalid signature for textures property (profile id: 00000000-0000-0000-0009-01f11bbf58af)
+[19:58:40] [Render thread/INFO]: [System] [CHAT] Sending you to: BOXPVP
+[19:58:40] [Render thread/INFO]: Stopping worker threads
+[19:58:40] [Render thread/INFO]: Started 2 worker threads
+[19:58:41] [Render thread/INFO]: [System] [CHAT] kenftr joined the game
+[19:58:41] [Render thread/INFO]: Loaded 88 advancements
+[19:58:41] [Render thread/INFO]: Stopping worker threads
+[19:58:41] [Render thread/INFO]: Started 2 worker threads
+[19:58:43] [Worker-Main-1/WARN]: Profile contained invalid signature for textures property (profile id: d4ca2481-0d08-30c2-9acc-8eec628469b4)
+[19:58:43] [Worker-Main-1/WARN]: Profile contained invalid signature for textures property (profile id: beb78a2b-e5f4-3ec2-9869-034456e8e1f3)
+[19:58:43] [Worker-Main-1/WARN]: Profile contained invalid signature for textures property (profile id: 7ca6561b-ff33-36bc-8d1f-914ce70bb116)
+[19:58:43] [Worker-Main-1/WARN]: Profile contained invalid signature for textures property (profile id: 25ed6c51-fb7f-39de-ae12-257c62197667)
+[19:58:43] [Worker-Main-1/WARN]: Profile contained invalid signature for textures property (profile id: a3dfbf78-f44a-3b1d-81a3-42735b265ac9)
+[19:58:46] [Render thread/INFO]: [System] [CHAT] Combat Nhutxlam was slain by Combat VuaVit_meomeoz
+[19:58:56] [Render thread/INFO]: [System] [CHAT] Minhkhieem12 has made the advancement [Isn't It Iron Pick]
+[19:58:56] [Render thread/INFO]: [System] [CHAT] No player was found
+[19:58:57] [Render thread/INFO]: [System] [CHAT] Rikubunthui has made the advancement [Suit Up]
+[19:59:02] [Render thread/INFO]: [System] [CHAT] axles joined the game
+[19:59:05] [Render thread/INFO]: [System] [CHAT] Combat KhanhhGia was slain by Combat Vesteage
+[19:59:06] [Render thread/INFO]: [Not Secure] [CHAT] Gà It_MinhQuanZ: đại ca ves
+[19:59:08] [Render thread/INFO]: [System] [CHAT] KhanhMcVn3850 joined the game
+[19:59:08] [Render thread/WARN]: Ignoring player info update for unknown player 00000000-0000-0000-0009-01f11bbf58af ([UPDATE_DISPLAY_NAME])
+[19:59:08] [Render thread/INFO]: [System] [CHAT] Welcome KhanhMcVn3850 to the server!
+[19:59:08] [Render thread/INFO]: [System] [CHAT] KhanhMcVn3850 has made the advancement [Getting an Upgrade]
+[19:59:17] [Render thread/INFO]: [System] [CHAT] boxpvp left the game
+[19:59:19] [Render thread/INFO]: [System] [CHAT] axles left the game
+[19:59:25] [Render thread/INFO]: [System] [CHAT] Nhutxlam left the game
+[19:59:30] [Render thread/INFO]: [System] [CHAT] AnMC left the game
+[19:59:30] [Render thread/INFO]: [System] [CHAT] ssnna joined the game
+[19:59:30] [Render thread/INFO]: [System] [CHAT] Welcome ssnna to the server!
+[19:59:30] [Render thread/INFO]: [System] [CHAT] ssnna has made the advancement [Getting an Upgrade]
+[19:59:32] [Render thread/INFO]: [System] [CHAT] KhanhMcVn3850 has made the advancement [Sticky Situation]
+[19:59:35] [Render thread/INFO]: [System] [CHAT] KhanhhGia left the game
+[19:59:46] [Render thread/INFO]: [System] [CHAT] KhanhMcVn3850 left the game
+[19:59:48] [Render thread/INFO]: [System] [CHAT] TTM091012 has reached the goal [Sky's the Limit]
+[19:59:55] [Render thread/INFO]: [System] [CHAT] sucutevailon suffocated in a wall
+[19:59:59] [Render thread/INFO]: [System] [CHAT] bulontaodi It_MinhQuanZ left the game
+[20:00:00] [Render thread/INFO]: [System] [CHAT] ThoongMC20 has made the advancement [Suit Up]
+[20:00:09] [Render thread/INFO]: [Not Secure] [CHAT] Gà chanhaka100: bị kẹt trong đây r=(((
+[20:00:10] [Render thread/INFO]: [System] [CHAT] luanmcvn2369 joined the game
+[20:00:10] [Render thread/WARN]: Ignoring player info update for unknown player 00000000-0000-0000-0009-01f33fb3bbfb ([UPDATE_DISPLAY_NAME])
+[20:00:10] [Render thread/INFO]: [System] [CHAT] Enzo_DucAnh joined the game
+[20:00:10] [Render thread/INFO]: [System] [CHAT] Welcome luanmcvn2369 to the server!
+[20:00:10] [Render thread/INFO]: [System] [CHAT] luanmcvn2369 has made the advancement [Getting an Upgrade]
+[20:00:10] [Render thread/INFO]: [System] [CHAT] Welcome Enzo_DucAnh to the server!
+[20:00:10] [Render thread/INFO]: [System] [CHAT] Enzo_DucAnh has made the advancement [Getting an Upgrade]
+[20:00:24] [Render thread/INFO]: [Not Secure] [CHAT] Gà chanhaka100: huhu
+[20:00:30] [Render thread/INFO]: [System] [CHAT] Combat chanhaka100 was slain by Combat ThemThitDog2
+[20:00:31] [Render thread/INFO]: [System] [CHAT] axles joined the game
+[20:00:32] [Render thread/INFO]: [System] [CHAT] aqua4892 joined the game
+[20:00:35] [Render thread/INFO]: [Not Secure] [CHAT] Gà chanhaka100: =)))
+[20:00:36] [Render thread/INFO]: [System] [CHAT] ssnna has made the advancement [Diamonds!]
+[20:00:41] [Render thread/INFO]: [System] [CHAT] Kosv2 VuaVit_meomeoz left the game
+[20:00:47] [Render thread/INFO]: [System] [CHAT] NgocKhoi69582 joined the game
+[20:00:55] [Render thread/INFO]: [System] [CHAT] catwarriors joined the game
+[20:00:59] [Render thread/INFO]: [Not Secure] [CHAT] Gà aqua4892: dupe 10
+[20:01:03] [Render thread/INFO]: [Not Secure] [CHAT] Gà sucutevailon: tra to cup voi
+[20:01:14] [Render thread/INFO]: [System] [CHAT] aqua4892 left the game
+[20:01:17] [Render thread/INFO]: [Not Secure] [CHAT] VIP+ ThemThitDog2: ngau qua
+[20:01:20] [Render thread/INFO]: [Not Secure] [CHAT] Gà kenftr: axles
+[20:01:21] [Render thread/INFO]: [Not Secure] [CHAT] Gà kenftr: cho t do
+[20:01:21] [Render thread/INFO]: [System] [CHAT] engel_petre joined the game
+[20:01:24] [Render thread/INFO]: [System] [CHAT] Combat taolawibu was slain by Combat dcmmaymc
+[20:01:27] [Render thread/INFO]: [Not Secure] [CHAT] Gà kenftr: non do ra
+[20:01:27] [Render thread/INFO]: [System] [CHAT] Combat dcmmaymc has made the advancement [Acquire Hardware]
+[20:01:37] [Render thread/INFO]: [Not Secure] [CHAT] Gà kenftr: vcl
+[20:01:48] [Render thread/INFO]: [System] [CHAT] munci has made the advancement [Suit Up]
+[20:01:48] [Render thread/INFO]: [Not Secure] [CHAT] Gà chanhaka100: nooooo
+[20:01:50] [Render thread/INFO]: [System] [CHAT] axles has completed the challenge [Cover Me in Debris]
+[20:01:51] [Render thread/INFO]: [Not Secure] [CHAT] Gà chanhaka100: :)))
+[20:01:52] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[20:01:52] [Render thread/INFO]: [Not Secure] [CHAT] Gà Vesteage: axles ngu
+[20:01:52] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[20:01:53] [Render thread/INFO]: [System] [CHAT] Combat MaVuong was slain by Combat Trhuy
+[20:01:55] [Render thread/INFO]: [System] [CHAT] Combat chanhaka100 was slain by Combat ThemThitDog2
+[20:01:57] [Render thread/INFO]: [Not Secure] [CHAT] Gà kenftr: vcl
+[20:01:59] [Render thread/INFO]: [System] [CHAT] Itz_THgame joined the game
+[20:01:59] [Render thread/INFO]: [Not Secure] [CHAT] Gà kenftr: cho t
+[20:02:05] [Render thread/INFO]: [System] [CHAT] dcmmaymc has made the advancement [Sticky Situation]
+[20:02:06] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[20:02:06] [Render thread/INFO]: [System] [CHAT] taolawibu left the game
+[20:02:06] [Render thread/INFO]: [System] [CHAT] Minhcpvp has made the advancement [Isn't It Iron Pick]
+[20:02:06] [Render thread/INFO]: [System] [CHAT] Hey! Sorry, but you can't PvP here.
+[20:02:12] [Render thread/INFO]: [System] [CHAT] Combat ANHKIETCHAOMAYEM was slain by Combat ThemThitDog2
+[20:02:16] [Render thread/INFO]: [Not Secure] [CHAT] Gà tobbi: cho t do di
+[20:02:17] [Render thread/INFO]: [System] [CHAT] Enzo_DucAnh has reached the goal [Sky's the Limit]
+[20:02:19] [Render thread/INFO]: [Not Secure] [CHAT] Gà chanhaka100: đào beacon đc ít cx bị ad phá:))
+[20:02:24] [Render thread/INFO]: [System] [CHAT] Combat Trum_PvP2276 was slain by Combat dcmmaymc
+[20:02:25] [Render thread/INFO]: [System] [CHAT] [ClearLag] Warning Ground items will be removed in 60 seconds!
+[20:02:38] [Render thread/INFO]: [System] [CHAT] KhanhMcVn3850 joined the game
+[20:02:38] [Render thread/WARN]: Ignoring player info update for unknown player 64418179-86d9-3e89-8786-22313fc5e56d ([UPDATE_DISPLAY_NAME])
+[20:02:38] [Render thread/INFO]: [System] [CHAT] Welcome KhanhMcVn3850 to the server!
+[20:02:38] [Worker-Main-7/WARN]: Profile contained invalid signature for textures property (profile id: 64418179-86d9-3e89-8786-22313fc5e56d)
+[20:02:38] [Render thread/INFO]: [System] [CHAT] KhanhMcVn3850 has made the advancement [Getting an Upgrade]
+[20:02:38] [Render thread/INFO]: [System] [CHAT] k29 joined the game
+[20:02:39] [Render thread/INFO]: [System] [CHAT] Welcome k29 to the server!
+[20:02:39] [Render thread/INFO]: [System] [CHAT] k29 has made the advancement [Getting an Upgrade]
+[20:02:39] [Render thread/INFO]: [System] [CHAT] Trum_PvP2276 left the game
+[20:02:40] [Render thread/INFO]: [System] [CHAT] MaVuong left the game
+[20:02:45] [Render thread/INFO]: [System] [CHAT] aqua4892 joined the game
+[20:02:49] [Render thread/INFO]: Stopping worker threads
+[20:02:51] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[20:02:51] [Render thread/INFO]: Stopping!

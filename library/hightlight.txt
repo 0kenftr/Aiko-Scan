@@ -1,0 +1,78 @@
+flight
+Flight
+fly
+Fly
+speed
+Speed
+Step
+step
+Sprint
+sprint
+Packet-fly
+packet-fly
+elytrafly
+elytra-fly
+Eytra-fly
+killaura
+Killaura
+kill-aura
+Kill-aura
+Kill-aura
+Kill-Aura
+aura
+Aura
+bridgadier Crash
+Killaura+
+killauraplus
+zkillaura
+meteor-client
+meteor-rejects
+seedcrackerx
+seedcrackerx-api
+meteorist
+meteorplus
+meteor+
+navine
+navine-client
+meteorplusplus
+TrouserStreak
+trouserstreak
+Streak
+streak
+Addon
+addon
+Vector
+Vector Addon
+vector addon
+vectoraddon
+serverseeker
+Meteorist
+meteorist
+Orion
+orion
+Meteorist enabled
+Starting navine3!
+Starting navine
+meteor-client
+Meteor
+meteor
+thunderhack
+thunder-hack
+lambda
+Lambda
+Pressige
+presstige
+Blooby
+blooby
+bloody
+Bloody
+
+xray
+hack
+flight
+chunkbase
+seed
+cheat
+
+[14:40:53] [Render thread/WARN]: Failed to load texture: navine:sigma.png
+java.io.IOException: Bad PNG Signature
