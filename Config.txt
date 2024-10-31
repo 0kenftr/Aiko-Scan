@@ -1,0 +1,14 @@
+[config] #toàn bộ config trong này chỉ là phần mở rộng, không bắt buộc phải nhập)
+Serverdetect = 
+#nhập ip server ( không bắt buộc )
+Serverport =
+#nhập port server ( không bắt buộc )
+Bancode = 
+#nhập code khi bị ban / kick / ( nếu có )
+Playername_1 =
+Playername_2 =
+#nhập tên người chơi bị nghi ngờ hack ( nếu cần thì nhập )
+
+
+#Lưu ý
+#toàn bộ nội dung trong config đều được hightlight màu đỏ
